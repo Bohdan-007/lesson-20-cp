@@ -1,0 +1,74 @@
+/* HEADER */
+#nav-mobile a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav-mobile a img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* MAIN */
+.main {
+  padding-top: 2%;
+}
+/* menu */
+.collection {
+  border: none;
+}
+.my-collection-menu a {
+  border: none !important;
+  display: flex !important;
+}
+.my-collection-menu a i {
+  margin-right: 15px;
+}
+.active {
+  background-color: #e3f6fd !important;
+}
+
+.badge {
+  min-width: 20px !important;
+  font-weight: 400 !important;
+}
+
+/* right part, search */
+/* .my-search-row {
+  display: flex;
+  align-items: center;
+} */
+
+/* posts */
+.my-events-details-list {
+  margin: 0;
+  margin-bottom: 10px;
+  display: flex;
+}
+.my-events-details-list li {
+  display: flex;
+  margin-right: 20px;
+}
+.my-events-details-list li:last-child {
+  margin-right: 0px;
+}
+.my-events-details-list i {
+  /* vertical-align: middle; */
+  margin-right: 5px;
+}
+
+.my-post-card-title {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: 700 !important;
+}
+@media (max-width: 700px) {
+  .my-post-card-title {
+    padding: 0 !important;
+    font-size: 18px !important;
+  }
+}
+
+.my-events-link {
+  font-weight: 700;
+}
