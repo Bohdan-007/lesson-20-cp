@@ -1,0 +1,72 @@
+/* HEADER */
+#nav-mobile a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nav-mobile a img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+/* MAIN */
+.main {
+  padding-top: 2%;
+}
+/* menu */
+.collection {
+  border: none;
+}
+.my-collection-menu a {
+  border: none !important;
+  display: flex !important;
+}
+.my-collection-menu a i {
+  margin-right: 15px;
+}
+.active {
+  background-color: #e3f6fd !important;
+}
+
+.badge {
+  min-width: 20px !important;
+  font-weight: 400 !important;
+}
+
+/* right part, search */
+@media (max-width: 992px) {
+  .friends-title {
+    text-align: center;
+  }
+}
+.my-search-wrapper {
+  padding: 0 !important;
+}
+/* friends */
+@media (max-width: 992px) {
+  .card-content {
+    text-align: center !important;
+  }
+  .card-content .about-friens {
+    margin: 20px 0px;
+  }
+}
+.my-collection {
+  margin: 0;
+}
+.my-collection li {
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 5px !important;
+}
+.my-collection li:last-child {
+  margin-bottom: 0 !important;
+}
+.my-friends-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.my-collection li i {
+  margin-right: 10px;
+  vertical-align: middle;
+}
