@@ -1,12 +1,18 @@
 /* HEADER */
-#nav-mobile a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.my-nav-mobile a {
+  display: flex !important;
+  align-items: center !important;
 }
-#nav-mobile a img {
-  width: 50px;
-  margin-right: 10px;
+.my-nav-mobile a img {
+  width: 50px !important;
+  margin-right: 10px !important;
+}
+.my-nav-mobile a span {
+  margin-top: 0 !important;
+}
+
+.my-user-profile {
+  margin-bottom: 50px;
 }
 
 /* MAIN */
@@ -34,11 +40,26 @@
 }
 
 /* right part, search */
-/* .my-search-row {
+@media (max-width: 992px) {
+  .friends-title {
+    text-align: center;
+  }
+}
+.my-input-field {
   display: flex;
   align-items: center;
-} */
-
+}
+@media (max-width: 992px) {
+  .my-input-field {
+    display: unset;
+  }
+  .my-input-field div {
+    margin-bottom: 20px;
+  }
+}
+.my-search-wrapper a {
+  margin-right: 5px;
+}
 /* posts */
 .my-events-details-list {
   margin: 0;
@@ -52,8 +73,16 @@
 .my-events-details-list li:last-child {
   margin-right: 0px;
 }
+@media (max-width: 600px) {
+  .my-events-details-list {
+    flex-direction: column;
+  }
+  .my-events-details-list li {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
 .my-events-details-list i {
-  /* vertical-align: middle; */
   margin-right: 5px;
 }
 
@@ -64,7 +93,7 @@
 }
 @media (max-width: 700px) {
   .my-post-card-title {
-    padding: 0 !important;
+    padding: 2% !important;
     font-size: 18px !important;
   }
 }
