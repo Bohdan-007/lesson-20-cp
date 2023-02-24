@@ -22,15 +22,30 @@
         <div class="nav-wrapper">
           <a href="../index.html" class="brand-logo">SN</a>
           <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <ul id="nav-mobile" class="my-nav-mobile right hide-on-med-and-down">
             <li><a href=""><img src="../images/avatar.png" alt="avatar">Luella Hubbard</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="">Luella Hubbard</a></li>
+    <ul class="my-nav-mobile sidenav" id="mobile-demo">
+      <li class="my-user-profile"><a href=""><img src="../images/avatar.png" alt="avatar">Luella Hubbard</a></li>
+
+      <li><a href="" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">assignment_ind</i>My profile</a>
+      </li>
+      <li><a href="./news.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">chrome_reader_mode</i>News</a></li>
+      <li><a href="" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">email</i>Messages<span
+            class="new badge light-blue darken-4 white-text" data-badge-caption="">4</span></a></li>
+      <li><a href="./friends.html" class="light-blue-text text-darken-4 active"><i
+            class="material-icons light-blue-text text-darken-4">face</i>Friends</a></li>
+      <li><a href="./events.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">event_available</i>Events</a></li>
+      <li><a href="" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">image</i>Media</a></li>
     </ul>
   </header>
 
@@ -39,7 +54,7 @@
     <div class="container">
       <div class="row">
         <!-- menu -->
-        <div class="col m4 l3 xl3">
+        <div class="col m4 l3 xl3 hide-on-med-and-down">
           <div class="my-collection-menu collection">
             <a href="#!" class="collection-item light-blue-text text-darken-4">
               <i class="material-icons">assignment_ind</i>My profile</a>
@@ -58,7 +73,7 @@
         </div>
 
         <!-- right part -->
-        <div class="col m8 l9 xl9">
+        <div class="col m12 l9 xl9">
           <div class="row">
             <!-- title and search -->
             <div class="col s12">
