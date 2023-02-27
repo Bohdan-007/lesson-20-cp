@@ -1,0 +1,131 @@
+/* HEADER */
+.my-nav-mobile a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-nav-mobile a img {
+  width: 50px;
+  margin-right: 10px;
+}
+.my-nav-mobile a span {
+  margin-top: 0 !important;
+}
+
+.my-user-profile {
+  margin-bottom: 50px;
+}
+
+/* MAIN */
+.main {
+  padding-top: 2%;
+}
+/* menu */
+.collection {
+  border: none;
+}
+.my-collection-menu a {
+  border: none !important;
+  display: flex !important;
+}
+.my-collection-menu a i {
+  margin-right: 15px;
+}
+.active {
+  background-color: #e3f6fd !important;
+}
+
+.badge {
+  min-width: 20px !important;
+  font-weight: 400 !important;
+}
+
+/* right part, user */
+.my-user-btn {
+  width: 100%;
+}
+/* user's friends */
+.my-friends-desc {
+  font-size: 20px;
+}
+.my-friends-card {
+  padding: 10px;
+}
+.my-cards-friends-name {
+  margin: 0px 0px 10px 0px;
+}
+@media (max-width: 992px) {
+  .my-cards-friends-name {
+    font-size: 12px;
+  }
+}
+
+/* about user */
+.my-user-name {
+  font-weight: 400 !important;
+  margin-bottom: 50px !important;
+}
+
+.my-user-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.my-user-number {
+  margin: 0;
+  font-size: 30px;
+}
+.my-user-text {
+  margin: 0;
+  font-size: 18px;
+}
+@media (max-width: 600px) {
+  .my-user-number {
+    margin: 0;
+    font-size: 20px;
+  }
+  .my-user-text {
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
+/* user's posts */
+.my-post-author-row {
+  margin: 0;
+}
+.my-collection {
+  margin: 0;
+}
+.my-collection li {
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 5px !important;
+}
+.my-collection li:last-child {
+  margin-bottom: 0 !important;
+}
+.my-friends-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.my-post-row {
+  margin: 0;
+}
+.my-post-action {
+  display: flex;
+  margin: 0;
+}
+.my-post-action li {
+  margin-right: 20px;
+  display: flex;
+  cursor: pointer;
+}
+.my-post-action li:last-child {
+  margin-right: 0;
+}
+.my-post-action li i {
+  margin-right: 5px;
+}

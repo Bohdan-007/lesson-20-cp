@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <!-- Materialize icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize css -->
+  <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+  <!-- My css -->
+  <link rel="stylesheet" href="../css/profile.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="">
+    <nav class="nav-extended light-blue darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo">SN</a>
+          <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="my-nav-mobile right hide-on-med-and-down">
+            <li><a href=""><img src="../images/avatar.png" alt="avatar">Luella Hubbard</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul class="my-nav-mobile sidenav" id="mobile-demo">
+      <li class="my-user-profile"><a href=""><img src="../images/avatar.png" alt="avatar">Luella Hubbard</a></li>
+
+      <li><a href="./profile.html" class="light-blue-text text-darken-4 active"><i
+            class="material-icons light-blue-text text-darken-4">assignment_ind</i>My profile</a>
+      </li>
+      <li><a href="./news.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">chrome_reader_mode</i>News</a></li>
+      <li><a href="./messages.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">email</i>Messages<span
+            class="new badge light-blue darken-4 white-text" data-badge-caption="">4</span></a></li>
+      <li><a href="./friends.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">face</i>Friends</a></li>
+      <li><a href="./events.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">event_available</i>Events</a></li>
+      <li><a href="" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">image</i>Media</a></li>
+    </ul>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <!-- menu -->
+        <div class="col m4 l3 xl3 hide-on-med-and-down">
+          <div class="my-collection-menu collection">
+            <a href="./profile.html" class="collection-item light-blue-text text-darken-4 active">
+              <i class="material-icons">assignment_ind</i>My profile</a>
+            <a href="./news.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">chrome_reader_mode</i>News</a>
+            <a href="./messages.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">email</i>Messages<span class="new badge light-blue darken-4 white-text"
+                data-badge-caption="">4</span></a>
+            <a href="./friends.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">face</i>Friends</a>
+            <a href="./events.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">event_available</i>Events</a>
+            <a href="#!" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">image</i>Media</a>
+          </div>
+        </div>
+
+        <!-- right part -->
+        <!-- USER AVATAR -->
+        <div class="col s12 m4 l4 xl3">
+          <div class="card">
+            <div class="card-image">
+              <img src="../images/avatar-big.png">
+            </div>
+            <div class="card-action center-align">
+              <a class="my-user-btn waves-effect waves-light btn blue lighten-2">edit</a>
+            </div>
+          </div>
+
+          <!-- user's friends -->
+          <div class="card my-friends-card">
+            <div class="row">
+              <div class="col s12 card-content">
+                <p class="my-friends-desc grey-text text-darken-3">Friends (245):</p>
+              </div>
+              <!-- friend 1 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_1.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Hassan Tomlin</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 2 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_2.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Jemma Andrade</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 3 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_3.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Cerys Croft</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 4 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_4.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Ciara Ho</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 5 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_1.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Selina Coffey</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 6 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_3.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Bertha England</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 7 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_2.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Mindy Olson</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 8 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_1.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Tonisha Collier</p>
+                  </div>
+                </div>
+              </div>
+              <!-- friend 9 -->
+              <div class="col s4 m4 l4 xl4">
+                <div>
+                  <div class="card-image">
+                    <img src="../images/avatar_4.png">
+                  </div>
+                  <div>
+                    <p class="center-align my-cards-friends-name">Virgil Duran</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ABOUT USER -->
+        <div class="col s12 m8 l5 xl6">
+          <div class="card">
+            <div class="card-content">
+              <span class="my-user-name card-title">Luella Hubbard</span>
+              <div class="row">
+                <div class="col l12 xl6">
+                  <div class="col s6 grey-text">Birthday:</div>
+                  <div class="col s6 light-blue-text text-darken-4">August 13</div>
+                  <div class="col s6 grey-text">City:</div>
+                  <div class="col s6 light-blue-text text-darken-4">New Orleans</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-action">
+              <div class="my-user-info light-blue-text text-darken-4">
+                <div>
+                  <p class="my-user-number">245</p>
+                  <p class="my-user-text">friends</p>
+                </div>
+
+                <div>
+                  <p class="my-user-number">23</p>
+                  <p class="my-user-text">events</p>
+                </div>
+
+                <div>
+                  <p class="my-user-number">456</p>
+                  <p class="my-user-text">media</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- posts -->
+
+          <!-- post 1 -->
+          <div class="card">
+            <div class="card-content row my-post-row">
+              <!-- post author -->
+              <div class="col s12">
+                <div class="my-post-author-row row">
+                  <div class="col"><img src="../images/avatar.png" alt="friend 1"></div>
+                  <div class="col">
+                    <ul class="my-collection collection">
+                      <li class="my-friends-name collection-item">Luella Hubbard</li>
+                      <li class="collection-item grey-text">1 Apr 2018</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- post text -->
+              <p class="col s12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat, ullam
+                consectetur, voluptatem
+                aperiam quibusdam maxime quo incidunt dignissimos natus ducimus deserunt, atque debitis sunt explicabo
+                ipsa nisi cumque eaque.
+                Pariatur corrupti enim beatae, impedit culpa commodi dicta repellat in. Rerum neque odio iste excepturi.
+                Quia magnam alias magni, assumenda explicabo a culpa!
+              </p>
+            </div>
+            <!-- post action -->
+            <div class="card-action">
+              <ul class="my-post-action">
+                <li class="orange-text">
+                  <i class="material-icons orange-text">favorite</i>342
+                </li>
+                <li class="orange-text">
+                  <i class="material-icons orange-text">comment</i>149
+                </li>
+                <li class="orange-text">
+                  <i class="material-icons orange-text">reply</i>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- post 2 -->
+          <div class="card">
+            <div class="card-content row my-post-row">
+              <!-- post author -->
+              <div class="col s12">
+                <div class="my-post-author-row row">
+                  <div class="col"><img src="../images/avatar.png" alt="friend 1"></div>
+                  <div class="col">
+                    <ul class="my-collection collection">
+                      <li class="my-friends-name collection-item">Luella Hubbard</li>
+                      <li class="collection-item grey-text">25 March 2018</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- post text -->
+              <p class="col s12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quaerat, ullam
+                consectetur, voluptatem aperiam, atque debitis sunt explicabo ipsa nisi cumque eaque.
+                Pariatur enim beatae, impedit culpa dicta repellat in. Rerum odio iste excepturi.
+                Quia magnam alias magni, assumenda explicabo a culpa!
+              </p>
+            </div>
+            <!-- post action -->
+            <div class="card-action">
+              <ul class="my-post-action">
+                <li class="orange-text">
+                  <i class="material-icons orange-text">favorite</i>398
+                </li>
+                <li class="orange-text">
+                  <i class="material-icons orange-text">comment</i>78
+                </li>
+                <li class="orange-text">
+                  <i class="material-icons orange-text">reply</i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </main>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!-- Materialize js -->
+  <script src="../materialize/js/materialize.min.js"></script>
+  <!-- My js -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
