@@ -1,0 +1,113 @@
+/* HEADER */
+.my-nav-mobile a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-nav-mobile a img {
+  width: 50px;
+  margin-right: 10px;
+}
+.my-nav-mobile a span {
+  margin-top: 0 !important;
+}
+
+.my-user-profile {
+  margin-bottom: 50px;
+}
+
+/* MAIN */
+.main {
+  padding-top: 2%;
+}
+/* menu */
+.collection {
+  border: none;
+}
+.my-collection-menu a {
+  border: none !important;
+  display: flex !important;
+}
+.my-collection-menu a i {
+  margin-right: 15px;
+}
+.active {
+  background-color: #e3f6fd !important;
+}
+
+.badge {
+  min-width: 20px !important;
+  font-weight: 400 !important;
+}
+
+/* right part, CHAT */
+.my-chat-box {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 0 !important;
+}
+.my-chat-row {
+  margin: 0;
+}
+/* friend's sidebar */
+.my-friends-sidebar {
+  padding-right: 0 !important;
+}
+.my-collection-friends-sidebar {
+  margin: 0;
+  border-right: 1px solid #e0e0e0 !important;
+  cursor: pointer;
+}
+.my-collection-friends-sidebar li:hover {
+  background-color: #e0e0e0 !important;
+}
+.my-friend-title {
+  font-weight: 700;
+}
+
+.my-unread-text {
+  font-weight: 700;
+}
+
+/* chat */
+.my-chat {
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  .my-chat {
+    padding-left: 0.75rem !important;
+  }
+}
+
+.my-colletions-chat li {
+  border: none !important;
+  padding-left: 20px !important;
+}
+.my-avatar-time {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.my-friend-title-odd {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.my-friend-title-odd span {
+  margin-right: 10px;
+}
+
+.my-chat-form {
+  padding: 0 5%;
+  display: flex;
+  align-items: center !important;
+}
+@media (max-width: 600px) {
+  .my-chat-btn {
+    display: flex;
+    align-items: center;
+    width: 40px !important;
+    height: 40px !important;
+  }
+}

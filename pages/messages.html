@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <!-- Materialize icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize css -->
+  <link rel="stylesheet" href="../materialize/css/materialize.min.css">
+  <!-- My css -->
+  <link rel="stylesheet" href="../css/messages.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="">
+    <nav class="nav-extended light-blue darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="../index.html" class="brand-logo">SN</a>
+          <a href="" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="my-nav-mobile right hide-on-med-and-down">
+            <li><a href=""><img src="../images/avatar.png" alt="avatar">Luella Hubbard</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul class="my-nav-mobile sidenav" id="mobile-demo">
+      <li class="my-user-profile"><a href=""><img src="../images/avatar.png" alt="avatar">Luella Hubbard</a></li>
+
+      <li><a href="./profile.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">assignment_ind</i>My profile</a>
+      </li>
+      <li><a href="./news.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">chrome_reader_mode</i>News</a></li>
+      <li><a href="" class="light-blue-text text-darken-4 active"><i
+            class="material-icons light-blue-text text-darken-4">email</i>Messages<span
+            class="new badge light-blue darken-4 white-text" data-badge-caption="">4</span></a></li>
+      <li><a href="./friends.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">face</i>Friends</a></li>
+      <li><a href="./events.html" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">event_available</i>Events</a></li>
+      <li><a href="" class="light-blue-text text-darken-4"><i
+            class="material-icons light-blue-text text-darken-4">image</i>Media</a></li>
+    </ul>
+  </header>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <!-- menu -->
+        <div class="col m4 l3 xl3 hide-on-med-and-down">
+          <div class="my-collection-menu collection">
+            <a href="./profile.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">assignment_ind</i>My profile</a>
+            <a href="./news.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">chrome_reader_mode</i>News</a>
+            <a href="#!" class="collection-item light-blue-text text-darken-4 active">
+              <i class="material-icons">email</i>Messages<span class="new badge light-blue darken-4 white-text"
+                data-badge-caption="">4</span></a>
+            <a href="./friends.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">face</i>Friends</a>
+            <a href="./events.html" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">event_available</i>Events</a>
+            <a href="#!" class="collection-item light-blue-text text-darken-4">
+              <i class="material-icons">image</i>Media</a>
+          </div>
+        </div>
+
+        <!-- right part, chat -->
+        <div class="my-chat-box col m12 l9 xl9">
+
+          <!-- chat header-->
+          <header class="">
+            <nav class="nav-extended grey lighten-3">
+              <div class="container">
+                <div class="nav-wrapper">
+                  <a href="" class="brand-logo light-blue-text text-darken-4">Messages
+                    <i class="material-icons light-blue-text text-darken-4">textsms</i>
+                  </a>
+
+                  <a href="" data-target="mobile-chat" class="sidenav-trigger light-blue-text text-darken-4"><i
+                      class="material-icons">menu</i></a>
+                </div>
+              </div>
+            </nav>
+
+            <ul class="my-nav-mobile sidenav" id="mobile-chat">
+              <ul class="my-collection-friends-sidebar collection">
+                <!-- friend 1 -->
+                <li class="collection-item avatar light-blue darken-1">
+                  <img src="../images/avatar_1.png" alt="" class="circle">
+                  <span class="my-friend-title title white-text">Pranav Talley</span>
+                  <p class="truncate white-text">
+                    Praesent odio felis, dignissim in pellentesque.
+                  </p>
+                </li>
+                <!-- friend 2 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_2.png" alt="" class="circle">
+                  <span class="my-friend-title title">Serena Perkins
+                    <span class="new badge light-blue darken-4 white-text" data-badge-caption="">3
+                    </span>
+                  </span>
+                  <p class="my-unread-text truncate light-blue-text text-darken-4">
+                    Mauris in aliquet purus, sed interdum sapien.
+                  </p>
+                </li>
+                <!-- friend 3 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_3.png" alt="" class="circle">
+                  <span class="my-friend-title title">Lyndsey Thomson</span>
+                  <p class="truncate">
+                    Fusce fermentum justo a purus tempor ormare.
+                  </p>
+                </li>
+                <!-- friend 4 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_4.png" alt="" class="circle">
+                  <span class="my-friend-title title">Nell Choi
+                    <span class="new badge light-blue darken-4 white-text" data-badge-caption="">1
+                    </span>
+                  </span>
+                  <p class="my-unread-text truncate light-blue-text text-darken-4">
+                    Nulla convallis nibh sed dignissim imperdiet.
+                  </p>
+                </li>
+                <!-- friend 5 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_1.png" alt="" class="circle">
+                  <span class="my-friend-title title">Nate Oakley</span>
+                  <p class="truncate">
+                    Mauris nec urna iaculis, molestie lorem a, venenatis.
+                  </p>
+                </li>
+                <!-- friend 6 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_2.png" alt="" class="circle">
+                  <span class="my-friend-title title">Amy-Louise Mcclure</span>
+                  <p class="truncate">
+                    Donec vel viverra ex, et pellentesque eart.
+                  </p>
+                </li>
+                <!-- friend 7 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_3.png" alt="" class="circle">
+                  <span class="my-friend-title title">Raife John</span>
+                  <p class="truncate">
+                    Nunc ut fermentum nisl.
+                  </p>
+                </li>
+              </ul>
+            </ul>
+          </header>
+
+          <div class="my-chat-row row">
+            <!-- friend's sidebar -->
+            <div class="my-friends-sidebar col s4 m4 l4 xl4 hide-on-med-and-down">
+              <ul class="my-collection-friends-sidebar collection">
+                <!-- friend 1 -->
+                <li class="collection-item avatar light-blue darken-1">
+                  <img src="../images/avatar_1.png" alt="" class="circle">
+                  <span class="my-friend-title title white-text">Pranav Talley</span>
+                  <p class="truncate white-text">
+                    Praesent odio felis, dignissim in pellentesque.
+                  </p>
+                </li>
+                <!-- friend 2 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_2.png" alt="" class="circle">
+                  <span class="my-friend-title title">Serena Perkins
+                    <span class="new badge light-blue darken-4 white-text" data-badge-caption="">3
+                    </span>
+                  </span>
+                  <p class="my-unread-text truncate light-blue-text text-darken-4">
+                    Mauris in aliquet purus, sed interdum sapien.
+                  </p>
+                </li>
+                <!-- friend 3 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_3.png" alt="" class="circle">
+                  <span class="my-friend-title title">Lyndsey Thomson</span>
+                  <p class="truncate">
+                    Fusce fermentum justo a purus tempor ormare.
+                  </p>
+                </li>
+                <!-- friend 4 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_4.png" alt="" class="circle">
+                  <span class="my-friend-title title">Nell Choi
+                    <span class="new badge light-blue darken-4 white-text" data-badge-caption="">1
+                    </span>
+                  </span>
+                  <p class="my-unread-text truncate light-blue-text text-darken-4">
+                    Nulla convallis nibh sed dignissim imperdiet.
+                  </p>
+                </li>
+                <!-- friend 5 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_1.png" alt="" class="circle">
+                  <span class="my-friend-title title">Nate Oakley</span>
+                  <p class="truncate">
+                    Mauris nec urna iaculis, molestie lorem a, venenatis.
+                  </p>
+                </li>
+                <!-- friend 6 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_2.png" alt="" class="circle">
+                  <span class="my-friend-title title">Amy-Louise Mcclure</span>
+                  <p class="truncate">
+                    Donec vel viverra ex, et pellentesque eart.
+                  </p>
+                </li>
+                <!-- friend 7 -->
+                <li class="collection-item avatar">
+                  <img src="../images/avatar_3.png" alt="" class="circle">
+                  <span class="my-friend-title title">Raife John</span>
+                  <p class="truncate">
+                    Nunc ut fermentum nisl.
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <!-- chat -->
+            <div class="my-chat col s12 m12 l8 xl8">
+              <ul class="my-colletions-chat collection">
+                <li class="collection-item avatar left-align">
+                  <!-- message 1 -->
+                  <img src="../images/avatar_1.png" alt="" class="left">
+                  <span class="my-friend-title title">Pranav Talley
+                    <span class="my-avatar-time grey-text">12:45:34</span>
+                  </span>
+                  <p>
+                    Praesent odio felis, dignissim in pellentesque eu, vehicula vitae lectus.
+                  </p>
+                </li>
+                <!-- message 2 -->
+                <li class="collection-item avatar right-align">
+                  <img src="../images/avatar.png" alt="" class="right">
+                  <span class="my-friend-title my-friend-title-odd title">Luella Hubbard
+                    <span class="my-avatar-time grey-text">12:45:34</span>
+                  </span>
+                  <p>
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                  </p>
+                </li>
+                <!-- message 3 -->
+                <li class="collection-item avatar left-align">
+                  <img src="../images/avatar_1.png" alt="" class="left">
+                  <span class="my-friend-title title">Pranav Talley
+                    <span class="my-avatar-time grey-text">12:45:34</span>
+                  </span>
+                  <p>
+                    Ut tincidunt mauris ut ipsum feugiat, eget luctus ante tempor.
+                  </p>
+                </li>
+                <!-- message 4 -->
+                <li class="collection-item avatar right-align">
+                  <img src="../images/avatar.png" alt="" class="right">
+                  <span class="my-friend-title my-friend-title-odd title">Luella Hubbard
+                    <span class="my-avatar-time grey-text">12:45:34</span>
+                  </span>
+                  <p>
+                    Suspendisse potenti. Integer mi tellus, iaculis at luctus non, henderit quis mauris.
+                  </p>
+                </li>
+              </ul>
+              <!--  -->
+              <br><br><br><br><br>
+              <!-- chat input -->
+              <div class="row">
+                <form class="my-chat-form">
+                  <div class="input-field col s10">
+                    <input type="text" id="icon_prefix2" class="materialize-textarea" placeholder="Message"></input>
+                  </div>
+                  <div class="col s2">
+                    <a class="my-chat-btn btn-floating btn-large waves-effect light-blue darken-4"><i
+                        class="material-icons">send</i></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </main>
+
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <!-- Materialize js -->
+  <script src="../materialize/js/materialize.min.js"></script>
+  <!-- My js -->
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
